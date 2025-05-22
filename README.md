@@ -16,6 +16,14 @@ Headless execution is supported for all browsers on all platforms. Check out [sy
 
 Looking for Playwright for [Python](https://playwright.dev/python/docs/intro), [.NET](https://playwright.dev/dotnet/docs/intro), or [Java](https://playwright.dev/java/docs/intro)?
 
+## Building Playwright
+
+```
+pnpm install
+pnpm run build
+pnpm exec playwright codegen
+```
+
 ## Installation
 
 Playwright has its own test runner for end-to-end tests, we call it Playwright Test.

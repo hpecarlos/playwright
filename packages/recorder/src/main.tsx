@@ -31,8 +31,8 @@ export const Main: React.FC = ({}) => {
       setSources(sources);
       window.playwrightSourcesEchoForTest = sources;
       document.title = primaryPageURL
-        ? `Playwright Inspector - ${primaryPageURL}`
-        : `Playwright Inspector`;
+        ? `Playwright Inspector - Carlos AI Version - ${primaryPageURL}`
+        : `Playwright Inspector - Carlos AI Version`;
     };
     window.playwrightSetPaused = setPaused;
     window.playwrightUpdateLogs = callLogs => {
